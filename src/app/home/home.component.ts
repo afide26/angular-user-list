@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-
+  githubUrl: string = "https://github.com/afide26/angular-user-list";
   appTitle: string = "ng7 User List";
   appDescription: string = "made with Angular7";
 }

@@ -54,18 +54,14 @@ ul.links {
   width: 50%;
 }
 
-ul.links li {
-  display: block;
-  text-align: center;
+ul.links>li>a {
   width: 200px;
-  color: #fcfcfc;
-  border-radius: 5px;
-  background: rgba(86, 193, 226, 0.639);
 }
 
+ul.links>a,
 ul.links li>a:link,
 ul.links li>a:hover {
-  color: #fcfcfc;
+  color: #fcfcfc !important;
   text-decoration: none;
 }
 
@@ -97,5 +93,11 @@ ul.links li>a:hover {
   .nav-item {
     width: 30%;
     align-self: flex-end;
+  }
+}
+
+@media only screen and (max-width:823px) {
+  ul.links {
+    width: 80%;
   }
 }
