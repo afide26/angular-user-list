@@ -12,9 +12,9 @@ export class TableComponent implements OnInit {
   constructor(private userlist: UserlistService) {}
 
   ngOnInit() {
-    this.userlist.getUsers().subscribe(data => {
-      this.users = data;
-      console.log(this.users);
+    this.userlist.getUsers().subscribe(userData => {
+      this.users = userData;
+      console.log("From Table Component ", this.users[0].name);
     });
   }
 }

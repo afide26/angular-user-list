@@ -1,14 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,700&display=swap');
 
-body {
+body,
+* {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 
 /* Overrides */
-.bg-dark .navbar-dark {
-  background-color: linear-gradient(to right, rgba(61, 69, 71, 0.1), rgba(61, 69, 71, 0.5))
+.bg-dark .navbar-dark,
+.thead-dark {
+  background-color: linear-gradient(to right, rgba(61, 69, 71, 0.1), rgba(61, 69, 71, 0.5));
 }
 
 a.navbar-brand,
