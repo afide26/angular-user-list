@@ -5,6 +5,56 @@ body {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
+
+/* Overrides */
 .bg-dark .navbar-dark {
   background-color: linear-gradient(to right, rgba(61, 69, 71, 0.1), rgba(61, 69, 71, 0.5))
+}
+
+a.navbar-brand,
+.nav-item>.nav-link {
+  color: #fcfcfc !important;
+  cursor: pointer;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+a.github {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul.links {
+  list-style-type: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 75%;
+}
+
+ul.links li {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+
+ul.links li>a:link,
+ul.links li>a:hover {
+  text-decoration: none;
 }
